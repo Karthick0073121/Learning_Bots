@@ -7,13 +7,13 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = 
-API_HASH = ""
-BOT_TOKEN = ""
-MONGO_DB_URI = ""
+API_ID = 29544518
+API_HASH = "ID8079b75d235acba03f72def9d7be909b"
+BOT_TOKEN = "7136324189:AAGO8smws4p2UeI-ziTlFKWdZA8AxgMZQk4"
+MONGO_DB_URI = "mongodb+srv://karthickpikachu31:r98lPRBbCFfdoiST@cluster0.suswm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-LOGGER_ID = 
-OWNER_ID = 
+LOGGER_ID = -1002015313240
+OWNER_ID = 7043015219
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -30,8 +30,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/learning_bots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/learning_bots")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -53,7 +53,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = ""
+STRING1 = "BQHC0EYAVuoQNS69d2T7XGoJsHy6E75qJ22IiSdUXIkTKkBequXV9RZDOLfLZ1ZjnHFJyFJb1YiV4K7p4x2HqeM3S3W2qylVnyzKfTpBjFUoJaCFmpxfFklKB5ZOAtXiWpPqDFmHNU0p4auV3xT4y8pCTOoBOOJ9uEtUt7bFJlRho5l1MjPwSPwQG81WT0M4bNNlzyCyvGk9cHX8oXoBZT12PBxZp6Ipa93qiC6S377yZ-lP2OGH92BvUDJ6d0WpQw58M0tC_xcDsyIPgqNrScpVNWVKptBFooNM-UdV59ho0X55AxkOD2cb67WrngQ7ZfecoSNxIOUFYMHWa_fvz1vZgv4wAAAAGjy-IzAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -69,10 +69,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/25efe6aa029c6baea73ea.jpg"
+    "START_IMG_URL", "https://graph.org/file/70afd90b2f3811bdf1ec0.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
+    "PING_IMG_URL", "https://graph.org/file/70afd90b2f3811bdf1ec0.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
